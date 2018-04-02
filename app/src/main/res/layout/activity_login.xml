@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1d276f"
+    tools:context="com.cetemoh.facebookapp.LoginActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:cropToPadding="false"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_logo"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_margin="10dp"
+        android:backgroundTint="#fff"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:focusable="true"
+        android:hint="Nom utilisateur :"/>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_margin="10dp"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:backgroundTint="#fff"
+        android:hint="Mot de passe :"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#051060"
+        android:textColor="#fff"
+        android:text="Se connecter" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mot_de_passe_oubli"
+        android:layout_margin="10dp"
+        android:textColor="#fff"
+        android:gravity="center_horizontal|center_vertical"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/aide"
+            android:gravity="start"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="2"
+            android:textColor="#fff"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/cr_un_compte"
+            android:layout_marginRight="10dp"
+            android:gravity="end"
+            android:textColor="#fff"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

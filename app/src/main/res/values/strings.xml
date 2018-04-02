@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Facebook App</string>
+    <string name="mot_de_passe_oubli"><u>Mot de passe oublié</u></string>
+    <string name="aide"><u>Aide</u></string>
+    <string name="cr_un_compte"><u>Créé un compte</u></string>
+</resources>
